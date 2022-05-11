@@ -71,7 +71,7 @@ function App() {
   return (
     <div data-theme={theme} className="app-container">
       <div className="page-container">
-      <ScrollToTop />
+      
       <Navbar changeTheme={changeTheme} currentTheme={theme} />
       <Home />
       <Free />
