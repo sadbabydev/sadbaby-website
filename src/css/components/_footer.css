@@ -1,7 +1,9 @@
 footer {
-  border-top: 0.1rem solid white;
-  margin: 3rem 0;
-  gap: 5rem;
+  border-top: 0.1rem solid #3c3c3c5b;
+  padding-top: 0rem;
+  width: 100%;
+  margin: auto;
+  text-align: center;
 }
 footer .upper {
   margin: auto;
@@ -12,7 +14,10 @@ footer .upper {
 footer .upper .brand-container {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  margin: auto;
+}
+footer .upper .brand-container p{
+  color: #FC6A11;
 }
 footer .upper .brand-container ul {
   list-style-type: none;
@@ -22,25 +27,32 @@ footer .upper .brand-container ul {
 footer .upper .links {
   display: flex;
   gap: 8rem;
+  text-align: center;
+  margin: auto;
 }
 footer .upper .links .link {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  justify-content: flex-start;
 }
-footer .upper .links .link h4 {
+footer .upper .links .link h6 {
   color: var(--accent-color1);
   text-transform: uppercase;
+  text-align: center;
 }
 footer .upper .links .link ul {
   list-style-type: none;
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  text-align: center;
+  padding-left: 0rem !important;
 }
 footer .lower {
   display: flex;
   justify-content: space-between;
+  justify-content: center;
+  margin-top: 1rem;
 }
 footer .lower span {
   color: var(--accent-color3);

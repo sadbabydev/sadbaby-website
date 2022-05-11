@@ -2,16 +2,31 @@
   margin: 5rem 0;
 }
 .like .container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4rem;
+  display: flex;
+  flex-direction: row;
 }
 .like .container .content {
   display: flex;
   flex-direction: column;
   gap: 2rem;
   padding: 3rem;
-  border-radius: 2rem;
+  width: 50%;
+  padding: 1rem;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.like .chart{
+  width: 50%;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.like .chart .doughunt{
+  width: 50%;
+}
+.like .title{
+  color: var(--accent-color1);
 }
 .like .container .content .title {
   color: var(--accent-color1);
@@ -21,16 +36,29 @@
   letter-spacing: 0.1rem;
   line-height: 1.5rem;
 }
+.like .content p{
+  color: #fff;
+}
+.like .content p span{
+  background: -webkit-linear-gradient( rgb(122, 162, 79), rgb(166, 78, 162), rgb(177, 78, 41));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 @media screen and (min-width: 280px) and (max-width: 1080px) {
   .like {
     margin: 0;
  }
   .like .container {
-    grid-template-columns: 1fr;
-    gap: 0;
+    flex-direction: column;
  }
   .like .container .content {
-    padding: 1rem 2rem;
-    border-radius: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+ }
+ .like .chart{
+   width: 100%;
+   margin: auto;
  }
 }

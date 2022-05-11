@@ -33,6 +33,7 @@
 }
 .releases .release .content .title {
   font-size: 2rem;
+  color: var(--accent-color1);
 }
 .releases .release .content .description {
   font-size: 1.3rem;
@@ -109,13 +110,16 @@
 }
 @media (max-width: 980px) {
   .releases .release {
-    width: 45%;
+    width: 50%;
+    text-align: center;
+    margin: auto;
     margin: 2rem 1rem;
     border-radius: 8px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
     -o-border-radius: 8px; 
+    font-size: 20px;
     /* burdayım */
   }
 }

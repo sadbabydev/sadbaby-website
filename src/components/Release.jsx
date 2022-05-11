@@ -4,7 +4,7 @@ import React from "react";
 export default function Release() {
   return (
     <div className="roadmap">
-      <h1 className="big-title">Our Roadmap</h1>
+      <h2 className="title nav-link">Our Roadmap</h2>
       <div className="releases">
       {/* PHASE 1 */}
       <div className="release orange mobile-sections ">

@@ -21,19 +21,6 @@
         -ms-border-radius: 10px !important;
         -o-border-radius: 10px !important;
     }
-    .like .content {
-        width: 80% !important;
-        box-sizing: border-box;
-        margin: auto !important;
-        padding: 1rem;
-    }
-    .like .content2 .chart {
-       width: 90% !important;
-       height: 10rem !important;
-       box-sizing: border-box;
-       margin: auto !important;
-       margin-top: 3rem !important;
-    }
     .signup{
         margin: auto;
         margin-top: 19rem !important;

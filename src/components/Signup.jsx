@@ -1,29 +1,39 @@
 import React from "react";
-import char from "../assets/release2.png";
+import char from "../assets/antsma.png";
+
+
+
 export default function Signup() {
   return (
-    <div className="signup ">
-      <div className="container">
+    <section className="signUp">
+    <div className="home">
         <div className="content">
-          <p className="sub-title">Launching Soon</p>
-          <h1 className="title">Join The Community!</h1>
+          <p className="sub-title">$SDBY</p>
+          <h1 className="title">Antalya SMA and Association for Combating Genetic Diseases</h1>
           <p className="description">
-            Örnek text test lorem ipsum dolor sit amet, consectetur adipiscing.
+          As it is known, the SMA treatment process is a long journey that is extremely difficult and includes financial difficulties. As SadBaby, we provide all kinds of sponsorship for our children.
           </p>
-          <button>Telegram</button>
-          <button>Twitter</button>
-          <button>BscScan</button>
+          <div className="home-buttons">
+          <a href="https://smagender.com/">
+            <button className="home-button"> 
+            Website
+            </button>
+          </a>            
+          </div>
         </div>
         <div className="image-container">
+
+          {/* <div className="ellipse-container">
+              <div className="ellipse pink"></div>
+              <div className="ellipse orange"></div>
+          </div> */}
+
           <div className="image">
-            <img src={char} alt="home" className="img-responsive sign-image" />
+              <img src={char} alt="home" className="img-responsive metaverse-char" />
           </div>
-          <div className="ellipse-container">
-            <div className="ellipse pink"></div>
-            <div className="ellipse orange"></div>
-          </div>
+
         </div>
-      </div>
     </div>
+    </section>
   );
 }
