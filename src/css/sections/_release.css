@@ -1,0 +1,122 @@
+.roadmap{
+  width: 100%;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.big-title{
+  text-align: center;
+}
+
+.releases {
+  margin: 5rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.releases .release {
+  width: 25%;
+  margin: 1rem;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px; 
+  /* burdayım */
+}
+.releases .release .content {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.releases .release .content .title {
+  font-size: 2rem;
+}
+.releases .release .content .description {
+  font-size: 1.3rem;
+}
+.releases .release .content .description a {
+  color: black;
+  font-weight: bold;
+}
+.releases .release .content .link {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+  gap: 1rem;
+}
+.releases .release .content .link svg {
+  font-size: 1.2rem;
+}
+.releases .release .image {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.releases .release .image img {
+  height: 24rem;
+}
+.releases .release .image .ellipse {
+  z-index: -1;
+  position: absolute;
+  bottom: -40%;
+  right: 0;
+  height: 20rem;
+  width: 20rem;
+  filter: blur(100px);
+}
+.releases .release .image .pink {
+  background-color: var(--pink);
+}
+.releases .release .card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+.releases .release .card-container .card-image img {
+  height: 14rem;
+}
+.releases .release .card-container .ellipse {
+  z-index: -1;
+  position: absolute;
+  bottom: -45%;
+  left: 0;
+  height: 20rem;
+  width: 20rem;
+  filter: blur(100px);
+}
+.releases .release .card-container .orange {
+  background-color: var(--orange);
+}
+.releases .pink{
+  background-color: var(--pink);
+}
+.releases .orange {
+  background-color: var(--orange);
+}
+.releases .green {
+  background-color: var(--green);
+}
+@media (max-width: 980px) {
+  .releases .release {
+    width: 45%;
+    margin: 2rem 1rem;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px; 
+    /* burdayım */
+  }
+}
+

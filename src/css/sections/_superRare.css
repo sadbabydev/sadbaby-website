@@ -1,0 +1,47 @@
+.super-rare {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.super-rare .title-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  gap: 1rem;
+}
+.super-rare .title-container .title {
+  color: var(--accent-color1);
+  font-size: 2.4rem;
+}
+.super-rare .title-container .description {
+  color: var(--accent-color3);
+}
+.super-rare .title-container .description a {
+  color: var(--accent-color3);
+  font-weight: bold;
+}
+.super-rare .cards {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5rem;
+}
+@media (max-width: 980px) {
+  .super-rare {
+    padding: 1rem 2rem;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+ }
+  .super-rare .cards {
+    overflow: auto;
+    justify-content: flex-start;
+    gap: 2rem;
+ }
+  .super-rare .cards::-webkit-scrollbar {
+    display: none;
+ }
+  .super-rare .cards .card {
+    zoom: 0.7;
+ }
+}
