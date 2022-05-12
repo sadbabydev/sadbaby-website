@@ -51,6 +51,9 @@
   .like .container {
     flex-direction: column;
  }
+ .like .token-li{
+   font-size: 30px;
+ }
   .like .container .content {
     width: 100%;
     text-align: center;
@@ -60,5 +63,9 @@
  .like .chart{
    width: 100%;
    margin: auto;
+ }
+ .like .chart .doughunt{
+   width: 80%;
+   margin-bottom: 3rem;
  }
 }

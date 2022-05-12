@@ -15,8 +15,8 @@ export default function Signup() {
           </p>
           <div className="home-buttons">
           <a href="https://smagender.com/">
-            <button className="home-button"> 
-            Website
+            <button className="link-button"> 
+              Website
             </button>
           </a>            
           </div>

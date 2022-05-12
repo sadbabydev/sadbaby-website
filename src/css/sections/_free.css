@@ -2,6 +2,7 @@
   position: relative;
   margin-top: 200px;
   width: 100%;
+  margin-bottom: 4rem;
 }
 .free .container {
   display: flex;
@@ -97,11 +98,15 @@
  }
   .free .container .content {
     padding: 0;
-    font-size: 16px;
+    font-size: 20px;
     gap: 1rem;
  }
   .free .container .content .title {
-    font-size: 22px;
+    font-size: 38px;
+    font-weight: bold;
+ }
+ .free .container .content p{
+   font-size: xx-large;
  }
   .free .cards .card1, .free .cards .card2 {
     zoom: 0.6;

@@ -37,7 +37,7 @@ export default function Footer() {
           {links.map(({ title, data }, index) => {
             return (
               <div className="link" key={index}>
-                <h6>{title}</h6>
+                <h6 className="foot-head">{title}</h6>
                 <ul>
                   {data.map((link, index2) => (
                     <li key={index2}>{link}</li>
@@ -49,7 +49,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="lower">
-        <span>&copy; Copyright 2022 Sadbaby</span>
+        <span>&copy;Sadbaby 2022. All rights reserved.</span>
       </div>
     </footer>
   );

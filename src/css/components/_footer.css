@@ -65,6 +65,7 @@ footer .lower span {
     margin: 0;
     gap: 2rem;
     padding: 1rem 2rem;
+    font-size: xx-large;
  }
   footer .upper {
     flex-direction: column;
@@ -81,5 +82,9 @@ footer .lower span {
   footer .lower {
     flex-direction: column;
     gap: 1rem;
+ }
+ footer .foot-head{
+  font-size: 40px;
+  margin-top: 2rem;
  }
 }

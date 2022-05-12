@@ -21,7 +21,7 @@ export const data = {
 export default function Chart2() {
   return (
    <div className="doughunt">
-      <Doughnut data={data} />
+      <Doughnut className='donut' data={data} />
    </div>
   );
 }

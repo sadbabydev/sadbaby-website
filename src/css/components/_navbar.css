@@ -47,7 +47,7 @@ nav .links-container .links li:last-of-type a {
  }
  .nav-brand img{
   width: 100%;
-  height: 200px;
+  max-height: 200px;
 }
   nav .brand-container .toggle-container {
     display: block;
@@ -91,5 +91,7 @@ nav .links-container .links li:last-of-type a {
     width: 60vw;
     visibility: visible;
     opacity: 1;
+    z-index: 99;
+    font-weight: bold;
  }
 }

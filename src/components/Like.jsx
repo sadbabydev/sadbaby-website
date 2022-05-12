@@ -4,7 +4,7 @@ import Chart2 from "./Chart";
 export default function Like() {
   return (
     <div className="like">
-      <h2 className="title nav-link">Tokenomic</h2><br />
+      <h2 className="title nav-link sec-head">Tokenomic</h2><br />
       <div className="container">
         <div className="content">
           <p className="token-li">Total Supply : <span>47.000.000.000</span></p>
