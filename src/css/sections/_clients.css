@@ -5,9 +5,13 @@
   text-align: center;
 }
 .clients .container .clients-container {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.clients .container .clients-container .client img {
+  max-width: 200px;
 }
 @media screen and (min-width: 280px) and (max-width: 980px) {
   .clients {
@@ -17,14 +21,10 @@
     margin-bottom: 3rem;
  }
   .clients .container .clients-container {
-    grid-template-columns: repeat(5, 1fr);
-    text-align: center;
-    gap: 1rem;
-    
+    flex-direction: column;
  }
   .clients .container .clients-container .client img {
-    height: 1.5rem;
+    margin-bottom: 2.3rem;
     
-    margin:auto
  }
 }

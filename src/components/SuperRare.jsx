@@ -1,8 +1,7 @@
 import React from "react";
 import Card from "./Card";
 import super1 from "../assets/super2.png";
-import super2 from "../assets/super2.png";
-import super3 from "../assets/super3.png";
+import super2 from "../assets/super3.png";
 
 export default function SuperRare() {
   const data = [
@@ -17,19 +16,7 @@ export default function SuperRare() {
       image: super2,
       series: "$Sadbaby",
       title: "Beige",
-    },
-    {
-      id:3,
-      image: super3,
-      series: "$Sadbaby",
-      title: "David",
-    },
-    {
-      id:4,
-      image: super3,
-      series: "$Sadbaby",
-      title: "David",
-    },
+    }
   ];
   return (
     <div className="super-rare">

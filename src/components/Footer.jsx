@@ -29,7 +29,7 @@ export default function Footer() {
           <div className="brand">
             <img src={logo} alt="logo" />
           </div>
-          <p>Step into the Future!</p>
+          <p>For The Child's!</p>
         </div>
       </div>
       <div className="upper">
