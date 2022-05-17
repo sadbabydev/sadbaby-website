@@ -6,7 +6,7 @@ import release2 from "../assets/release2.png";
 
 export default function Free() {
   return (
-    <div className="free mobile-sections">
+    <div className="free mobile-sections" id="about">
       <div className="container">
         <div className="background">
           <div className="ellipse pink"></div>
@@ -34,15 +34,15 @@ export default function Free() {
         <div className="card1">
           <Card
             image={super1}
-            series="Token Adı"
-            title="Purple Man"
+            series="$SADBABY"
+            title="NFT 1"
           />
         </div>
         <div className="card2">
           <Card
             image={release2}
-            series="Token Adı"
-            title="David"
+            series="$SADBABY"
+            title="NFT 2"
           />
         </div>
       </div>

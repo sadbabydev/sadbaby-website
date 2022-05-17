@@ -9,6 +9,8 @@ import Navbar from "./components/Navbar";
 import Release from "./components/Release";
 import SuperRare from "./components/SuperRare";
 import Token from "./components/token";
+import Media from "./components/Media";
+import Video from "./components/Video";
 
 //import css
 import "./css/base/_base.css";
@@ -27,6 +29,17 @@ import "./css/style.css";
 import "./css/chart.css";
 import "./css/responsive.css";
 
+import clients3 from "./assets/unicef.png";
+import clients2 from "./assets/enoc.png";
+import clients1 from "./assets/givekids.png";
+import clients4 from "./assets/crc.png";
+
+import vid1 from './assets/vid1.mp4';
+import vid2 from './assets/vid2.mp4';
+
+
+
+
 
 function App() {
   const [theme, setTheme] = useState("dark");
@@ -38,14 +51,17 @@ function App() {
     <div data-theme={theme} className="app-container">
       <div className="page-container">
       <Navbar changeTheme={changeTheme} currentTheme={theme} />
-      <Home/>
+      <Home />
       <Free  />
+      <Video video={vid1}/>
       <Token />
-      <Clients />
+      <Clients clients1={clients1} clients2={clients2} clients3={clients3} clients4={clients4}/>
       <SuperRare />
       <Release />
       <Like />
-      <Clients />
+      <Media/>
+      <Video video={vid2}/>
+      <Clients clients1={clients1} clients2={clients2} clients3={clients3} clients4={clients4}/>
       </div>
       <Footer />
     </div>

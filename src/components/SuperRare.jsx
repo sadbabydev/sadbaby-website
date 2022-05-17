@@ -9,13 +9,13 @@ export default function SuperRare() {
       id:1,
       image: super1,
       series: "$Sadbaby",
-      title: "Purple Man",
+      title: "NFT 1",
     },
     {
       id:2,
       image: super2,
       series: "$Sadbaby",
-      title: "Beige",
+      title: "NFT 2",
     }
   ];
   return (

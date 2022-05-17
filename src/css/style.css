@@ -34,41 +34,7 @@
 .like p{
     margin: 0;
 }
-.video{
-    width: 100%;
-    height: 100%;
-    margin: auto;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    z-index: 0 !important;
-}
-.video .video-container{
-    width: 100%;
-    margin: auto;
-    overflow: hidden;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    z-index: 0 !important;
-    
-}
-.video .video-container video{
-    width: 100%;
-    height: 100%;
-    position: relative;
-    z-index: 0 !important;
-}
-.video .video-overlay{
-    position: absolute;
-    top: 50%;
-    left: 20%;
-}
-.video-overlay .video-text{
-    color:#ff3998;
-    font-weight: bold;
-}
+
 .token .GeneratedMarquee {
     white-space: nowrap;
     overflow: hidden;
@@ -144,4 +110,41 @@ body{
 .signUp{
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
+.mediaUs{
+    margin-bottom: 5rem !important;
+}
+.mediaUs a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #989898;
+}
+.mediaUs a:hover{
+    color: #b90e61;
+}
+.mediaUs li{
+    list-style-type: none;
+}
+.mediaUs h1{
+    color: #b90e61 !important;
+}
+.Video{
+    width: 86.8%;
+    height: auto;
+    margin: auto;
+   
+}
+.Video .video-wrapper{
+    width: 100% !important;
+    height: 100% !important;
+    position: relative;
+}
+.Video .video-wrapper video{
+    width: 100% !important;
+    height: 100% !important;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
 }

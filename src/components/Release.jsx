@@ -3,159 +3,273 @@ import React from "react";
 
 export default function Release() {
   return (
-    <div className="roadmap">
+    <div className="roadmap" id="roadmap">
       <h2 className="title nav-link sec-head">Our Roadmap</h2>
       <div className="releases">
       {/* PHASE 1 */}
       <div className="release orange mobile-sections ">
         <div className="content">
-          <h2 className="title">Phase 1</h2>
+          <h2 className="title">2021-Q2</h2>
           <li className="roadmap-li">
-               Pancakeswap Listing
+            IDEA FORMATION
            </li>
            <li className="roadmap-li">
-            Community Building
+            TEAM BUILDING
            </li>
            <li className="roadmap-li">
-           Influcing
+           WEBSITE AND SOCIAL MEDIA
            </li>
            <li className="roadmap-li">
-             200 Hold
+           SADBABY WHITE PAPER V1
            </li>
            <li className="roadmap-li">
-             CoinmarketCap & CoinGecko Listing
+           SADBABY.ORG V1
            </li>
            <li className="roadmap-li">
-           Pancakeswap Farm
+           PROJECT R&D STUDY
+           </li>
+           <li className="roadmap-li">
+           TWITTER 500 FOLLOWERS
+           </li>
+           <li className="roadmap-li">
+           TELEGRAM 500
+           </li>
+           <li className="roadmap-li">
+           BSCSCAN HOLDERS 500
            </li>
         </div>
       </div>
       {/* PHASE 1 END */}
-      {/* PHASE 1 */}
+
+      {/* PHASE 2 */}
       <div className="release pink mobile-sections ">
         <div className="content">
-          <h2 className="title">Phase 1</h2>
+          <h2 className="title">2021-Q3</h2>
           <li className="roadmap-li">
-               Pancakeswap Listing
+          SMART CONTRACT AUDIT
            </li>
            <li className="roadmap-li">
-            Community Building
+           CERTIK AUDIT
            </li>
            <li className="roadmap-li">
-           Influcing
+           LATOKEN EXCHANGE
            </li>
            <li className="roadmap-li">
-             200 Hold
+           INDOEX EXCHANGE
            </li>
            <li className="roadmap-li">
-             CoinmarketCap & CoinGecko Listing
+           SUPPLY DROP / TOTAL SUPPLY
            </li>
            <li className="roadmap-li">
-           Pancakeswap Farm
+           TWITTER 1500 FOLLOWERS
+           </li>
+           <li className="roadmap-li">
+           TELEGRAM 5000
+           </li>
+           <li className="roadmap-li">
+           BSCSCAN HOLDERS 5000
+           </li>
+           <li className="roadmap-li">
+           TRUST WALLET LOGO
+           </li>
+           <li className="roadmap-li">
+           BSCSCAN LOGO
            </li>
         </div>
       </div>
-      {/* PHASE 1 END */}
-       {/* PHASE 1 */}
+      {/* PHASE 2 END */}
+
+       {/* PHASE 3 */}
        <div className="release green mobile-sections ">
         <div className="content">
-          <h2 className="title">Phase 1</h2>
+          <h2 className="title">2021-Q4</h2>
           <li className="roadmap-li">
-               Pancakeswap Listing
+          WHITE PAPER V2
            </li>
            <li className="roadmap-li">
-            Community Building
+           SADBABY.ORG V2
            </li>
            <li className="roadmap-li">
-           Influcing
+           TWITTER 2000 FOLLOWERS
            </li>
            <li className="roadmap-li">
-             200 Hold
+           TELEGRAM 7000
            </li>
            <li className="roadmap-li">
-             CoinmarketCap & CoinGecko Listing
+           COINGECKO APPLICATION
            </li>
            <li className="roadmap-li">
-           Pancakeswap Farm
+           COINMARKETCAP APPLICATION
            </li>
         </div>
       </div>
-      {/* PHASE 1 END */}
-       {/* PHASE 1 */}
+      {/* PHASE 3 END */}
+
+       {/* PHASE 4 */}
        <div className="release orange mobile-sections ">
         <div className="content">
-          <h2 className="title">Phase 1</h2>
+          <h2 className="title">2022-Q2</h2>
           <li className="roadmap-li">
-               Pancakeswap Listing
+          BTCIX EXCHANGE
            </li>
            <li className="roadmap-li">
-            Community Building
+           SADBABY.ORG 2022.V2
            </li>
            <li className="roadmap-li">
-           Influcing
+           WHITE PAPER 2022.V2
            </li>
            <li className="roadmap-li">
-             200 Hold
+           NEW CONTRACT SWAP
            </li>
            <li className="roadmap-li">
-             CoinmarketCap & CoinGecko Listing
+           BSCSCAN SWAP
            </li>
            <li className="roadmap-li">
-           Pancakeswap Farm
+           AUDIT SWAP
+           </li>
+           <li className="roadmap-li">
+           CERTIK SWAP
+           </li>
+           <li className="roadmap-li">
+           TRUSTWALLET LOGO SWAP
+           </li>
+           <li className="roadmap-li">
+           COINGECKO SWAP
+           </li>
+           <li className="roadmap-li">
+           COINMARKETCAP SWAP
+           </li>
+           <li className="roadmap-li">
+           BSCSCAN ADVERTISING
+           </li>
+           <li className="roadmap-li">
+           COINGECKO ADVERTISING
+           </li>
+           <li className="roadmap-li">
+           HOLDERS 20.000+
+           </li>
+           <li className="roadmap-li">
+           TWITTER 15.000+
+           </li>
+           <li className="roadmap-li">
+           TELEGRAM 20.000+
            </li>
         </div>
       </div>
-      {/* PHASE 1 END */}
-       {/* PHASE 1 */}
+      {/* PHASE 4 END */}
+
+       {/* PHASE 5 */}
        <div className="release pink mobile-sections ">
         <div className="content">
-          <h2 className="title">Phase 1</h2>
+          <h2 className="title">2022-Q3</h2>
           <li className="roadmap-li">
-               Pancakeswap Listing
+          PROBIT EXCHANGE
            </li>
            <li className="roadmap-li">
-            Community Building
+           HOTBIT EXCHANGE
            </li>
            <li className="roadmap-li">
-           Influcing
+           SURPRISE EXCHANGE
            </li>
            <li className="roadmap-li">
-             200 Hold
+           SADBABY.ORG 2022.V3
            </li>
            <li className="roadmap-li">
-             CoinmarketCap & CoinGecko Listing
+           WHITE PAPER 2022.V3
            </li>
            <li className="roadmap-li">
-           Pancakeswap Farm
+           VR GLASSES PRODUCTION
+           </li>
+           <li className="roadmap-li">
+           SDBY METAVERSE GAME
+           </li>
+           <li className="roadmap-li">
+           SURPRISE EXCHANGE
+           </li>
+           <li className="roadmap-li">
+           CRYPTO NEWS ADS
+           </li>
+           <li className="roadmap-li">
+           SURPRISE EXCHANGE
+           </li>
+           <li className="roadmap-li">
+           COINMARKETCAP TREND
+           </li>
+           <li className="roadmap-li">
+           COINGECKO TREND
+           </li>
+           <li className="roadmap-li">
+           POOCOIN TREND
+           </li>
+           <li className="roadmap-li">
+           BSCSCAN ADVERTISING
+           </li>
+           <li className="roadmap-li">
+           HOLDERS 50.000+
+           </li>
+           <li className="roadmap-li">
+           TWITTER 40.000+
+           </li>
+           <li className="roadmap-li">
+           TELEGRAM 50.000+
            </li>
         </div>
       </div>
-      {/* PHASE 1 END */}
-       {/* PHASE 1 */}
+      {/* PHASE 5 END */}
+
+
+       {/* PHASE 6 */}
        <div className="release green mobile-sections ">
         <div className="content">
-          <h2 className="title">Phase 1</h2>
+          <h2 className="title">2022 - Q4</h2>
           <li className="roadmap-li">
-               Pancakeswap Listing
+          SADBABY.ORG 2022.V4
            </li>
            <li className="roadmap-li">
-            Community Building
+           WHITE PAPER 2022.V4
            </li>
            <li className="roadmap-li">
-           Influcing
+           MEXC EXCHANGE
            </li>
            <li className="roadmap-li">
-             200 Hold
+           CRYPTO NEWS ADS
            </li>
            <li className="roadmap-li">
-             CoinmarketCap & CoinGecko Listing
+           AIRPORT ADVERTISEMENTS
            </li>
            <li className="roadmap-li">
-           Pancakeswap Farm
+           GATE IO EXCHANGE
+           </li>
+           <li className="roadmap-li">
+           KUCOIN EXCHANGE
+           </li>
+           <li className="roadmap-li">
+           TV ADVERTISEMENTS
+           </li>
+           <li className="roadmap-li">
+           COINMARKETCAP TREND
+           </li>
+           <li className="roadmap-li">
+           COINGECKO TREND
+           </li>
+           <li className="roadmap-li">
+           POOCOIN TREND
+           </li>
+           <li className="roadmap-li">
+           BSCSCAN ADVERTISING
+           </li>
+           <li className="roadmap-li">
+           HOLDERS 100.000+
+           </li>
+           <li className="roadmap-li">
+           TWITTER 80.000+
+           </li>
+           <li className="roadmap-li">
+           TELEGRAM 100.000+
            </li>
         </div>
       </div>
-      {/* PHASE 1 END */}
+      {/* PHASE 6 END */}
     </div>
     </div>
   );

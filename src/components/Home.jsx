@@ -5,7 +5,7 @@ import '../css/sections/_home.css';
 
 function Home() {
   return (
-    <div className="home">
+    <div className="home" id="home">
         <div className="content">
           <p className="sub-title">$SDBY</p>
           <h1 className="title">Sadbaby Token</h1>

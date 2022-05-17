@@ -5,6 +5,13 @@ footer {
   margin: auto;
   text-align: center;
 }
+footer a{
+  text-decoration: none;
+  color: var(--accent-color3);
+}
+footer a:hover{
+  color: #b90e61;
+}
 footer .upper {
   margin: auto;
   display: flex;
@@ -19,6 +26,10 @@ footer .upper .brand-container {
 footer .upper .brand-container p{
   color: #FC6A11;
 }
+footer .upper .brand-container p:hover{
+  color: #b90e61;
+}
+
 footer .upper .brand-container ul {
   list-style-type: none;
   display: flex;

@@ -44,10 +44,10 @@ export default function Navbar({ changeTheme, currentTheme }) {
             <a href="#roadmap" className="nav-link">Roadmap</a>
           </li>
           <li>
-            <a href="#signup" className="nav-link">Tokenomics</a>
+            <a href="#tokenomic" className="nav-link">Tokenomics</a>
           </li>
           <li>
-            <a href="#signup" className="nav-link">Whitepaper</a>
+            <a href="#whitepaper" className="nav-link">Whitepaper</a>
           </li>
           <li onClick={changeTheme}>
             {currentTheme === "dark" ? (

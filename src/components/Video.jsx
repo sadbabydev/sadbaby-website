@@ -1,18 +1,16 @@
-import React from "react";
-import Bgvideo from "../assets/video2.mp4";
+import React from 'react';
 
-export default function Video() {
+
+
+const Video = ({video}) => {
     return(
-        <div className="video">
-           <div className="video-container">
+        <div className='Video'>
+            <div className='video-wrapper'>
                 <video autoPlay loop muted>
-                    <source src={Bgvideo} type="video/mp4" />
+                    <source src={video} type="video/mp4" />
                 </video>
-            <div className="video-overlay">
-                <h1 className="big-title">#Tokenadı Verry Soon</h1>
-                <p className="video-text">Gelecek token metin text tokenadı metin token slogan!</p>
-           </div>
-           </div>
+            </div>
         </div>
-    );
+    )
 }
+export default Video;
