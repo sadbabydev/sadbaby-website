@@ -27,7 +27,8 @@ export default function Free() {
           <p className="description">
             <h2 className="title">Instant Rewards</h2>
             <b>Liquidity fee: </b>In buying and selling to strengthen liquidity. The cut bnb will strengthen the liquidity. <br />
-            <b>Marketing fee: </b>bnb Exchange and development deducted from each purchase and sale will be used.
+            <b>Marketing fee: </b>BNB Exchange and development deducted from each purchase and sale will be used. <br />
+            <b>Charity fee: </b> BNB's from each trade will be donated to foundations and Sick babies on a regular basis.
           </p>
         </div>
       </div>
