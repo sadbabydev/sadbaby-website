@@ -5,13 +5,15 @@ import { Doughnut } from 'react-chartjs-2';
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 export const data = {
-  labels: ['Cırculating', 'Coin Burn'],
+  labels: ['Development', 'Marketing', 'Charity', 'Liquidity'],
   datasets: [
     {
-      data: [51.06, 48.94],
+      data: [1, 5, 5, 5],
       backgroundColor: [
+        '#3AFBA0',
         '#9a0680',
         '#052a6e',
+        '#FF8139'
       ],
       borderWidth: 0,
     },

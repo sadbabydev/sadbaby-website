@@ -1,6 +1,7 @@
 //import components
 import React, { useState } from "react";
 import Clients from "./components/Clients";
+import Clients2 from "./components/Clients2";
 import Footer from "./components/Footer";
 import Free from "./components/Free";
 import Home from "./components/Home";
@@ -29,15 +30,28 @@ import "./css/style.css";
 import "./css/chart.css";
 import "./css/responsive.css";
 
+import vid1 from './assets/vid1.mp4';
+import vid2 from './assets/vid2.mp4';
+
 import clients3 from "./assets/unicef.png";
 import clients2 from "./assets/enoc.png";
 import clients1 from "./assets/givekids.png";
 import clients4 from "./assets/crc.png";
+import clients5 from "./assets/client6.svg";
+import clients6 from "./assets/coinmarketcap.svg";
+import clients7 from "./assets/coingecko.svg";
+import clients8 from "./assets/github.png";
 
-import vid1 from './assets/vid1.mp4';
-import vid2 from './assets/vid2.mp4';
-
-
+const clientUrls = {
+  1:'https://www.givekidsthearts.org/',
+  2:'https://enoc.eu/',
+  3:'https://www.unicef.org/',
+  4:'https://childrightsconnect.org/',
+  5:'https://www.certik.com/projects/sadbaby',
+  6:'https://coinmarketcap.com/currencies/sadbaby/',
+  7:'https://www.coingecko.com/en/coins/sadbaby/',
+  8:'https://github.com/sadbabytoken',
+}
 
 
 
@@ -55,13 +69,13 @@ function App() {
       <Free  />
       <Video video={vid1}/>
       <Token />
-      <Clients clients1={clients1} clients2={clients2} clients3={clients3} clients4={clients4}/>
+      <Clients urls={clientUrls} clients1={clients1} clients2={clients2} clients3={clients3} clients4={clients4}/>
       <SuperRare />
       <Release />
       <Like />
       <Media/>
       <Video video={vid2}/>
-      <Clients clients1={clients1} clients2={clients2} clients3={clients3} clients4={clients4}/>
+      <Clients2 urls={clientUrls} clients1={clients6} clients2={clients5} clients3={clients8} clients4={clients7}/>
       </div>
       <Footer />
     </div>

@@ -25,8 +25,9 @@ export default function Free() {
           SADBABY TOKEN belongs to the decentralized community that aims to make those who join its community of happy people happy. We welcome and embrace different perspectives to turn SADBABY TOKEN into the best community in crypto. It acts with the mission of making unhappy babies and children happy.
           </p>
           <p className="description">
-          <h2 className="title">Instant Rewards</h2>
-            Existing holders are charged a 1% fee for each transaction on the SADBABY TOKEN network. This means you will earn more SADBABY TOKENs just by keeping them in your wallet. Watch your SADBABY TOKENs grow with every transaction!
+            <h2 className="title">Instant Rewards</h2>
+            <b>Liquidity fee: </b>In buying and selling to strengthen liquidity. The cut bnb will strengthen the liquidity. <br />
+            <b>Marketing fee: </b>bnb Exchange and development deducted from each purchase and sale will be used.
           </p>
         </div>
       </div>

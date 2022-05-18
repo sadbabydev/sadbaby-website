@@ -12,14 +12,16 @@ export default function Footer() {
         2:"About",
         3:"Roadmap",
         4:"Tokenomic",
-        5:"Whitepaper"
+        5:"Audit",
+        6:"Whitepaper"
       },
       data_link: {
         1:"#home",
         2:"#about",
         3:"#roadmap",
         4:"#tokenomic",
-        5:"#whitepaper"
+        5:"https://github.com/sadbabytoken/sadbabytoken/blob/main/AUDIT_SADBABY.pdf",
+        6:"#whitepaper"
       },
     },
     clients:{
@@ -105,6 +107,11 @@ export default function Footer() {
                     <li >
                       <a href={links.sadbaby.data_link[5]} target="_blank" rel="noopener noreferrer">
                         {links.sadbaby.data[5]}
+                      </a>
+                    </li>
+                    <li >
+                      <a href={links.sadbaby.data_link[6]} target="_blank" rel="noopener noreferrer">
+                        {links.sadbaby.data[6]}
                       </a>
                     </li>
                 </ul>

@@ -47,6 +47,9 @@ export default function Navbar({ changeTheme, currentTheme }) {
             <a href="#tokenomic" className="nav-link">Tokenomics</a>
           </li>
           <li>
+            <a href="https://github.com/sadbabytoken/sadbabytoken/blob/main/AUDIT_SADBABY.pdf" className="nav-link">Audit</a>
+          </li>
+          <li>
             <a href="#whitepaper" className="nav-link">Whitepaper</a>
           </li>
           <li onClick={changeTheme}>
