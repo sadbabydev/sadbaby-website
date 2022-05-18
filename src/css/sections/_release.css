@@ -137,7 +137,7 @@
 }
 .roadmap .phase h2{
     margin-top: 2rem;
-    color: #fff;
+    color: #989898;
     font-size: 1.7rem;
 }
 .roadmap p {
@@ -152,7 +152,7 @@
   padding: 40px;
   counter-increment: section;
   position: relative;
-  color: #d9e3d3;
+  color: #989898;
   font-weight: normal;
 }
 .roadmap p:before {
@@ -165,7 +165,7 @@
   background-color: #34435e;
   text-align: center;
   line-height: .2rem;
-  color: #ffffff;
+  color: #989898;
   font-size: 1rem;
   text-indent: -.3rem;
 }
