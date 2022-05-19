@@ -30,6 +30,11 @@ import "./css/style.css";
 import "./css/chart.css";
 import "./css/responsive.css";
 
+import img1 from './assets/metaverse1.jpeg'
+import img2 from './assets/metaverse2.jpeg'
+import img3 from './assets/metaverse3.jpeg'
+import img4 from './assets/metaverse5.jpeg'
+
 import vid1 from './assets/vid1.mp4';
 import vid2 from './assets/vid2.mp4';
 
@@ -54,7 +59,6 @@ const clientUrls = {
 }
 
 
-
 function App() {
   const [theme, setTheme] = useState("dark");
   const changeTheme = () => {
@@ -72,9 +76,17 @@ function App() {
       <Clients urls={clientUrls} clients1={clients1} clients2={clients2} clients3={clients3} clients4={clients4}/>
       <SuperRare />
       <Release />
+      <div className="row">
+          <img src={img2} alt="sadbaby" className="metaverse-image"/>
+          <img src={img3} alt="sadbaby" className="metaverse-image"/>
+      </div>
       <Like />
       <Media/>
       <Video video={vid2}/>
+      <div className="row">
+          <img src={img1} alt="sadbaby" className="metaverse-image"/>
+          <img src={img4} alt="sadbaby" className="metaverse-image"/>
+      </div>
       <Clients2 urls={clientUrls} clients1={clients6} clients2={clients5} clients3={clients8} clients4={clients7}/>
       </div>
       <Footer />
