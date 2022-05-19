@@ -47,10 +47,10 @@
 	}
 }
  ::-webkit-scrollbar {
-	 background-color: #111;
-	 width: 0.2rem;
+	 background-color: transparent;
+	 width: .5rem;
 }
  ::-webkit-scrollbar-thumb {
-	 background-color: var(--orange);
+	 background-color: #0A3E3E;
 }
  

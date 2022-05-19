@@ -1,4 +1,4 @@
-.roadmap{
+/* .roadmap{
   width: 100%;
   margin: auto;
   margin-top: 2rem;
@@ -24,7 +24,7 @@
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
   -o-border-radius: 8px; 
-  /* burdayım */
+  
 }
 .releases .release .content {
   padding: 2rem;
@@ -120,7 +120,7 @@
     -ms-border-radius: 8px;
     -o-border-radius: 8px; 
     font-size: 20px;
-    /* burdayım */
+    
   }
   .sec-head{
     font-size: 60px;
@@ -218,11 +218,87 @@
 }
 .roadmap .phase h2{
   font-size: 1.8rem;
+} */
+
+.roadmap{
+  width: 100%;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: var(--accent-color3) !important;
+}
+.roadmap .roadmap-container{
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.roadmap .phase{
+  width: 25%;
+  min-height: 200px;
+  margin: 1.5rem;
+  padding: 1.5rem;
+  border: 1px solid #008889;
+  -webkit-box-shadow: 1px 1px 10px -2px #008889; 
+  box-shadow: 1px 1px 10px -2px #008889;
+  text-align: center;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 450px;
+  scrollbar-color: red green !important;
+}
+.roadmap .phase h2{
+  font-size: 1.8rem;
+}
+.roadmap .phase .road-tasks{
+  text-align: left;
+  font-size: 1rem;
+}
+.roadmap .phase .road-tasks .load-icon{
+    width: 16px;
+    height: 16px;
+    animation-name: spinner .7s linear infinite;
+    -webkit-animation: spinner .7s linear  infinite;
+    -moz-animation: spinner .7s linear  infinite;
+
+}
+.load-icon::after{
+  position: absolute;
+  content:'';
+  width: 16px;
+  height: 16px;
+  top: -3px;
+  left: -3px;
+
+}
+@keyframes spinner{
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
+ 
+@-webkit-keyframes spinner{
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
+ 
+@-moz-keyframes spinner{
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
 }
 
-@media screen and (max-width:950px) and (min-width:250px) {
-  .roadmap {
-      width: 90%;
-      text-align: center;
+@media screen and (max-width:1000px) {
+  .roadmap .roadmap-container{
+    flex-direction: column;
   }
+  .roadmap .phase{
+    width: 70%;
+  }
+
 }
+
