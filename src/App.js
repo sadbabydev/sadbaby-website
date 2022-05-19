@@ -46,6 +46,7 @@ import clients5 from "./assets/client6.svg";
 import clients6 from "./assets/coinmarketcap.svg";
 import clients7 from "./assets/coingecko.svg";
 import clients8 from "./assets/github.png";
+import clients9 from "./assets/bscscan.svg"
 
 const clientUrls = {
   1:'https://www.givekidsthearts.org/',
@@ -56,6 +57,7 @@ const clientUrls = {
   6:'https://coinmarketcap.com/currencies/sadbaby/',
   7:'https://www.coingecko.com/en/coins/sadbaby/',
   8:'https://github.com/sadbabytoken',
+  9:'https://bscscan.com/'
 }
 
 
@@ -87,7 +89,7 @@ function App() {
           <img src={img1} alt="sadbaby" className="metaverse-image"/>
           <img src={img4} alt="sadbaby" className="metaverse-image"/>
       </div>
-      <Clients2 urls={clientUrls} clients1={clients6} clients2={clients5} clients3={clients8} clients4={clients7}/>
+      <Clients2 urls={clientUrls} clients1={clients6} clients2={clients5} clients3={clients8} clients4={clients7} clients5={clients9}/>
       </div>
       <Footer />
     </div>

@@ -1,6 +1,10 @@
 .page-container{
     width:100%;
 }
+a{
+    text-decoration: none;
+    color:#CCCCCC ;
+}
 /* HOME */
 .metaverse-char{
     width: 100%;
@@ -10,7 +14,7 @@
     display: flex;
     flex-direction: row;
 }
-.home-buttons button{
+.home-buttons a{
     margin-left: 1rem;
 }
 /* HOME END */
@@ -175,4 +179,8 @@ body{
     .row .metaverse-image{
         width: 80%;
     }
+}
+.home-button a{
+    width: 100%;
+    height: 100%;
 }
