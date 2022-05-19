@@ -168,6 +168,10 @@ export default function Release() {
                     </p>
                     <p className="task">
                         <img src={load} alt="sadbaby" className="load-icon"  /> 
+                        &nbsp;LBANK EXCHANGE
+                    </p>
+                    <p className="task">
+                        <img src={load} alt="sadbaby" className="load-icon"  /> 
                         &nbsp;BSCSCAN ADVERTISING
                     </p>
                     <p className="task">
