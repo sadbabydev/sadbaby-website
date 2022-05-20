@@ -23,7 +23,7 @@ export default function SuperRare() {
       <div className="title-container">
         <h2 className="title nav-link">Our Virtual Assistants</h2>
         <p className="description">
-        You will not encounter any problems! Because they exist. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum laboriosam a fugit saepe impedit libero aliquam. Esse deserunt sint unde numquam, expedita quae iure optio non, nostrum consequuntur, voluptates cupiditate.
+        
         </p>
       </div>
       <div className="cards">
