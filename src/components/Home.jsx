@@ -6,7 +6,7 @@ import {RiFileCopyFill} from 'react-icons/ri'
 
 export default class Home extends Component {
   state = {
-    contract_adress: 'SOON',
+    contract_adress: '0x3ce0f6944279a58a366cc2e89585b376306b9b4f',
     copied: false,
   };
 

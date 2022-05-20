@@ -57,7 +57,7 @@ const clientUrls = {
   6:'https://coinmarketcap.com/currencies/sadbaby/',
   7:'https://www.coingecko.com/en/coins/sadbaby/',
   8:'https://github.com/sadbabytoken',
-  9:'https://bscscan.com/'
+  9:'https://bscscan.com/token/0x3ce0f6944279a58a366cc2e89585b376306b9b4f'
 }
 
 
