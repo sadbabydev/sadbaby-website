@@ -139,11 +139,11 @@ export default function Release() {
                         &nbsp;WHITE PAPER 2022.V2
                     </p>
                     <p className="task">
-                        <img src={load} alt="sadbaby" className="load-icon"  /> 
+                        <img src={done} alt="sadbaby" className="done-icon"  /> 
                         &nbsp;NEW CONTRACT SWAP
                     </p>
                     <p className="task">
-                        <img src={load} alt="sadbaby" className="load-icon"  /> 
+                        <img src={done} alt="sadbaby" className="done-icon"  /> 
                         &nbsp;BSCSCAN SWAP
                     </p>
                     <p className="task">
@@ -159,11 +159,11 @@ export default function Release() {
                         &nbsp;TRUSTWALLET LOGO SWAP
                     </p>
                     <p className="task">
-                        <img src={load} alt="sadbaby" className="load-icon"  />  
+                        <img src={done} alt="sadbaby" className="done-icon"  />  
                         &nbsp;COINGECKO SWAP
                     </p>
                     <p className="task">
-                        <img src={load} alt="sadbaby" className="load-icon"  /> 
+                        <img src={done} alt="sadbaby" className="done-icon"  /> 
                         &nbsp;COINMARKETCAP SWAP
                     </p>
                     <p className="task">
