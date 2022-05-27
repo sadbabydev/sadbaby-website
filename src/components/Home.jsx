@@ -34,7 +34,7 @@ export default class Home extends Component {
           </p>
         </p>
         <div className="home-buttons">
-        <a href='/' className="home-button" target="_blank" rel="noopener noreferrer">Buy $SDBY</a>
+        <a href='https://pancakeswap.finance/swap?inputCurrency=0x3CE0f6944279a58A366cc2E89585B376306B9b4F&outputCurrency=wbnb' className="home-button" target="_blank" rel="noopener noreferrer">Buy $SDBY</a>
         <a href='sadbaby-whitepaper.pdf' className="home-button" target="_blank" rel="noopener noreferrer">Whitepaper</a>
         </div>
       </div>
