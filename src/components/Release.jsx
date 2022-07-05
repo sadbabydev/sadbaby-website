@@ -146,21 +146,14 @@ export default function Release() {
                         <img src={done} alt="sadbaby" className="done-icon"  /> 
                         &nbsp;BSCSCAN SWAP
                     </p>
-                    <p className="task">
-                        <img src={load} alt="sadbaby" className="load-icon"  /> 
-                        &nbsp;AUDIT SWAP
-                    </p>
-                    <p className="task">
-                        <img src={load} alt="sadbaby" className="load-icon"  />  
-                        &nbsp;CERTIK SWAP
-                    </p>
-                    <p className="task">
-                        <img src={load} alt="sadbaby" className="load-icon"  /> 
-                        &nbsp;TRUSTWALLET LOGO SWAP
-                    </p>
+                    
                     <p className="task">
                         <img src={done} alt="sadbaby" className="done-icon"  />  
                         &nbsp;COINGECKO SWAP
+                    </p>
+                    <p className="task">
+                        <img src={done} alt="sadbaby" className="done-icon"  />  
+                        &nbsp;Metaverse
                     </p>
                     <p className="task">
                         <img src={done} alt="sadbaby" className="done-icon"  /> 
@@ -219,10 +212,7 @@ export default function Release() {
                         <img src={load} alt="sadbaby" className="load-icon"  /> 
                         &nbsp;VR GLASSES PRODUCTION
                     </p>
-                    <p className="task">
-                        <img src={load} alt="sadbaby" className="load-icon"  /> 
-                        &nbsp;SDBY METAVERSE GAME
-                    </p>
+                   
                     <p className="task">
                         <img src={load} alt="sadbaby" className="load-icon"  /> 
                         &nbsp;SURPRISE EXCHANGE

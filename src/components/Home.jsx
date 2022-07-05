@@ -36,11 +36,13 @@ export default class Home extends Component {
         <div className="home-buttons">
         <a href='https://pancakeswap.finance/swap?inputCurrency=0x3CE0f6944279a58A366cc2E89585B376306B9b4F&outputCurrency=wbnb' className="home-button" target="_blank" rel="noopener noreferrer">Buy $SDBY</a>
         <a href='sadbaby-whitepaper.pdf' className="home-button" target="_blank" rel="noopener noreferrer">Whitepaper</a>
+        <a href='https://sadbabymeta.com' className="home-button" target="_blank" rel="noopener noreferrer">Metaverse GO</a>
+
         </div>
       </div>
       <div className="image-container">
 
-        {/* <div className="ellipse-container">
+        {/* <div className="ellipse-container">ß
             <div className="ellipse pink"></div>
             <div className="ellipse orange"></div>
         </div> */}
